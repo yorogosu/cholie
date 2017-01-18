@@ -1,4 +1,4 @@
-def cholie(g, normalizge=False):
+def cholie(g, normalize=False):
     """
     Calculate the Cholesky decomposition of a GRM based on a genotype matrix g
 
