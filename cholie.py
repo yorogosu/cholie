@@ -12,6 +12,6 @@ def cholie(g, normalize=False):
             grm = sp.dot(h.T, h) / n_snps
             cho = cholesky(pinv(grm))
             resolved = True
-            return chocholi
+            return cho
         except:
             pass
